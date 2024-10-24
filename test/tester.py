@@ -4,6 +4,7 @@ import yaml
 import filecmp
 import os
 
+os.chdir("./test/")
 # Load the test suite configuration
 with open('test_suite_config.yaml', 'r') as file:
     config = yaml.load(file, Loader=yaml.FullLoader)

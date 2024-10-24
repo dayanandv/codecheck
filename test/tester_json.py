@@ -2,7 +2,9 @@ import subprocess
 import color_style as cs
 import json
 import filecmp
+import os
 
+os.chdir("./test/")
 # Load the test suite configuration
 with open('test_suite_config.json', 'r') as file:
     config = json.load(file)
@@ -40,3 +42,5 @@ for item in config['test_suite']:
     
     # Print the number of test cases that passed and the total number of test cases for each code file
     print(f"{item['code_file']} : {test_case_pass_count[str(item)]}/{test_case_count[str(item)]} test cases passed.")
+
+os.remove(test_cases_folder + "temp")
