@@ -1,0 +1,26 @@
+# Test Suite Configuration
+src_folders:
+    - ../src/
+test_cases_folders:
+    - ./test_cases/
+test_suite:
+  - code_file: list_access.py
+    test_cases:
+      - input_file: TC_1.in
+        output_file: TC_1.1.out
+      - input_file: TC_2.in
+        output_file: TC_2.1.out
+
+  - code_file: list_changing_value.py
+    test_cases:
+      - input_file: TC_1.in
+        output_file: TC_1.1.out
+      - input_file: TC_2.in
+        output_file: TC_2.1.out
+        
+  - code_file: list_slicing_iterating.py
+    test_cases:
+      - input_file: TC_1.in
+        output_file: TC_1.1.out
+      - input_file: TC_2.in
+        output_file: TC_2.1.out  
