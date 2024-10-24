@@ -25,7 +25,7 @@ Usage:
 
  1. Clone the repository:
 
-        git clone https://github.com/dayanandv/code_check.git
+        git clone https://github.com/dayanandv/codecheck.git
 
  2. Place your source code files in the src folder.
  3. Define your test cases in the test/test_cases directory, using .in files for inputs and .out files for expected outputs.
