@@ -1,4 +1,4 @@
-CodeCheck is a testing framework tailored for undergraduate programming students. It allows users to run test cases against their Python code submissions, providing immediate feedback on correctness. With support for input-output pairs and various configuration options, CodeCheck helps students validate their solutions and improve their coding skills.
+CodeCheck is a testing framework tailored for programming students. It allows users to run test cases against their Python code submissions, providing immediate feedback on correctness. With support for input-output pairs and various configuration options, CodeCheck helps students validate their solutions and improve their coding skills.
 
 File Structure:
 
